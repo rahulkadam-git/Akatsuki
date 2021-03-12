@@ -1,0 +1,229 @@
+                * {
+                    margin: 0;
+                    padding: 0;
+                    box-sizing: border-box;
+                }
+                
+                html {
+                    font-size: 62.5%;
+                }
+                
+                h1 {
+                    font-size: 3rem;
+                }
+                
+                h2 {
+                    font-size: 2.8rem;
+                }
+                
+                a {
+                    color: white;
+                    text-decoration: none;
+                }
+                /*nav style*/
+                
+                .main-header {
+                    background-color: lightblue;
+                    position: sticky;
+                    top: 0px;
+                }
+                
+                nav {
+                    min-height: 10vh;
+                    display: flex;
+                    width: 90%;
+                    align-items: center;
+                    padding: 2rem;
+                    margin: auto;
+                    flex-wrap: wrap;
+                }
+                
+                nav ul {
+                    display: flex;
+                    flex: 2 1 40rem;
+                    justify-content: space-around;
+                    align-items: center;
+                    list-style: none;
+                    font-size: 2.6rem;
+                }
+                
+                #logo {
+                    flex: 2 1 40rem;
+                    font-family: 'Pattaya', sans-serif;
+                    font-weight: normal;
+                }
+                
+                .intro {
+                    min-height: 100vh;
+                    background: linear-gradient(rgb(0, 0, 0, 0.7), transparent), url(./imgs/d.jpg);
+                    height: 100%;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    background-position: top;
+                    color: red;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                }
+                
+                .intro h2 {
+                    padding-top: 35rem;
+                }
+               
+                #pain {
+                    min-height: 100vh;
+                    background: linear-gradient(rgba(26, 11, 11, 0.5), transparent), url(./imgs/pain_wallpaper___naruto_wallpapers_by_deohvi_d5nbc6k-pre.jpg);
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    display: flex;
+                    font-weight: normal;
+                }
+                
+                .pain-header {
+                    margin: auto;
+                    width: 90%;
+                    color: lightblue;
+                }
+                
+                .pain-header h2 {
+                    font-size: 2rem;
+                    display: flex;
+                    padding-top: 2rem;
+                }
+                 
+                .founder-head {
+                    min-height: 30vh;
+                    background: linear-gradient(rgba(26, 11, 11, 1), transparent) #3a3632;
+                    color: lightpink;
+                    text-align: center;
+                    
+                    
+                }
+                .founder-head h1{
+                   padding-top: 7rem;
+                }
+                .cards
+                {
+                    width: 90%;
+                    margin: auto;
+                    display: flex;
+                    min-height: 70vh;
+                    align-items: center;
+                    flex-wrap: wrap;
+                    }
+                
+                 .card {
+                     background-color: rgb(241, 76, 76);
+                    flex: 1 1 25rem;
+                    min-height: 40vh;
+                    margin: 2rem ;
+                    padding: 2rem;
+                    box-shadow: 0px 10px 10px rgb(0,0,0,0.5);
+                    text-align: center;
+                   
+                }
+                .card img{
+                    height: 300px;
+                  
+                }
+                .card button{
+                    text-decoration: none;
+                    padding: 1rem 4rem;
+                    margin: 1rem;
+                    border-radius: 2rem;
+
+                }
+
+                #buy{
+                    min-height: 50vh;
+                     background:linear-gradient(rgba(19, 28, 39, 0.8), transparent);
+                     display: flex;
+                    flex-direction: column; 
+                    
+                    
+                   
+                    
+                }
+                 
+                .buy-op{
+                   
+                    margin: auto;
+                    background-color: whitesmoke;
+                    background:  linear-gradient(rgba(26, 11, 11, 1), transparent) #3a3632;
+                    padding: 5rem;
+                    border-radius: 20px;
+                     display: flex;
+                    flex-direction: column; 
+                    /* align-items: center; */
+                    /* justify-content: ; */
+
+
+                }
+                .buy-op h2{
+                    color: snow;
+                    margin: 2rem;
+                  
+
+                }
+               .buy-op button{
+                  border: none;
+                   padding: 1rem 5rem;
+                   margin: 2rem;
+                   border-radius: 10px;
+                   background-color: red;
+                   color: turquoise;
+                   font-size: medium;
+                   
+                   animation: button-anime 5s infinite;
+                   
+               }
+                
+
+               footer{
+                   background-color: lightblue;
+                   
+               }
+               .footer-content{
+                   display: flex;
+                   width: 90%;
+                   margin: auto;
+                   align-items: center;
+                   height: 10vh;
+                   font-size: medium;
+
+               }
+                footer h4{
+                    flex: 1 1 40rem;
+                }
+               .footer-content ul{
+                   list-style: none;
+                   display: flex;
+                   flex: 1 1 40rem;
+                   justify-content: space-around;
+                   align-items: center;
+
+
+
+               }
+                
+                
+                
+                
+                
+                
+              
+                @media screen and (max-width:500px)
+                {
+                    .main-head {
+                        text-align: center;
+                    }
+                    #logo {
+                        padding: 1rem;
+                    }
+                }
+                @keyframes button-anime{
+                    from{background-color: red;}
+                    to{background-color: black;}
+                }
