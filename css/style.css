@@ -138,17 +138,12 @@
 
                 #buy{
                     min-height: 50vh;
-                     background:linear-gradient(rgba(19, 28, 39, 0.8), transparent);
+                     background:lightblue;
                      display: flex;
                     flex-direction: column; 
-                    
-                    
-                   
-                    
-                }
+                     }
                  
                 .buy-op{
-                   
                     margin: auto;
                     background-color: whitesmoke;
                     background:  linear-gradient(rgba(26, 11, 11, 1), transparent) #3a3632;
@@ -169,13 +164,12 @@
                 }
                .buy-op button{
                   border: none;
-                   padding: 1rem 5rem;
+                   padding: 1rem 3rem;
                    margin: 2rem;
                    border-radius: 10px;
                    background-color: red;
-                   color: turquoise;
-                   font-size: medium;
-                   
+                   color: black;
+                   font-size: 2rem;
                    animation: button-anime 5s infinite;
                    
                }
@@ -224,6 +218,6 @@
                     }
                 }
                 @keyframes button-anime{
-                    from{background-color: red;}
+                    from{background-color: lightblue;}
                     to{background-color: black;}
                 }
